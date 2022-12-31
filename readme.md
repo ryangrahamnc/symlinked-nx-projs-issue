@@ -2,6 +2,14 @@
 
 Example project for nx issue https://github.com/nrwl/nx/issues/14067
 
+# Steps to Reproduce
+```
+git clone https://github.com/ryangrahamnc/symlinked-nx-projs-issue
+cd symlinked-nx-projs-issue/blog
+npm i
+npx nx serve blog-ui
+```
+
 # Problem description 
 
 I have two nx monorepos:
