@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@my/react-utils": ["packages/react-utils/src/index.ts"],
+      "@my/utils": ["packages/utils/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

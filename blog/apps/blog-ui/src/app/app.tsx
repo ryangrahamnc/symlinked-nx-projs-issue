@@ -3,6 +3,7 @@ import styles from './app.module.scss';
 import NxWelcome from './nx-welcome';
 
 import { Route, Routes, Link } from 'react-router-dom';
+import { Comp1 } from '@my/react-utils';
 
 export function App() {
   return (
@@ -16,6 +17,7 @@ export function App() {
       <br />
       <hr />
       <br />
+      <Comp1 />
       <div role="navigation">
         <ul>
           <li>
