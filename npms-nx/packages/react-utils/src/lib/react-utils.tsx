@@ -1,5 +1,11 @@
 import styles from './react-utils.module.scss';
 
+import { isString } from '@my/utils';
+
+export const Comp1 = (val: any) => {
+  return <div>isString: {isString(val)}</div>;
+};
+
 /* eslint-disable-next-line */
 export interface ReactUtilsProps {}
 
